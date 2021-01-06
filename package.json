@@ -3,23 +3,29 @@
   "version": "1.0.0",
   "description": "Starter project to work with node.js",
   "dependencies": {
+    "@vendia/serverless-express": "^3.4.0",
     "dotenv": "^6.2.0",
     "express": "^4.16.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "serverless": "^2.17.0",
+    "serverless-plugin-optimize": "^4.1.4-rc.1"
+  },
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
+    "deploy": "serverless deploy",
+    "teardown": "serverless remove",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JamesLouie/nodejs-starter.git"
+    "url": "git+https://github.com/JamesLouie/serverless-express-starter.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "Apache 2.0 License",
   "bugs": {
-    "url": "https://github.com/JamesLouie/nodejs-starter/issues"
+    "url": "https://github.com/JamesLouie/serverless-express-starter/issues"
   },
-  "homepage": "https://github.com/JamesLouie/nodejs-starter#readme"
+  "homepage": "https://github.com/JamesLouie/serverless-express-starter#readme"
 }
