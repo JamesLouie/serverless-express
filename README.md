@@ -23,4 +23,13 @@ Optionally if you have `nodemon` installed, you may also run `npm run dev` for h
 Requirements:
 * [AWS CLI](https://aws.amazon.com/cli/)
 
-Run the following command: `npm run deploy`
+### Setup
+
+1. Setup AWS CLI credentials
+2. Update `serverless.yml` file with the `service` and `provider.region`
+3. Deploy the app
+
+### Commands
+
+* `npm run deploy` - Deploy the application to AWS
+* `npm run teardown` - Remove application resources from AWS
