@@ -1,4 +1,4 @@
-# serverless-express
+# serverless-express-starter
 Nodejs starter template for Express with deployment to AWS Lambda
 
 ## Requirements
